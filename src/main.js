@@ -5,11 +5,20 @@ import App from './App'
 import router from './router'
 // 懒加载
 import VueLazyload from 'vue-lazyload'
+// swiper
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+
 // rem
 import './config/rem'
 
+// reset
+import './assets/css/reset.css'
+
 // 懒加载
 Vue.use(VueLazyload)
+// swiper
+Vue.use(VueAwesomeSwiper)
 
 Vue.config.productionTip = false
 
