@@ -3,6 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// 懒加载
+import VueLazyload from 'vue-lazyload'
+// rem
+import './config/rem'
+
+// 懒加载
+Vue.use(VueLazyload)
 
 Vue.config.productionTip = false
 
