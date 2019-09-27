@@ -249,6 +249,90 @@ html,body{
   -o-border-radius: 5px;
   -ms-border-radius: 5px;
 }
+.page12_title h3, .page17_title h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.page12-table, .page17-table {
+  width: 80%;
+  margin: 2rem auto;
+  border: 1px solid #81b43d
+}
+
+.page12-table table.page12-table-cc, .page17-table table.page17-table-cc {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page12-table table thead tr th, .page17-table table thead tr th {
+  font-size: 1.3rem;
+  line-height: 1.6em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.page12-table table tbody tr td.table-img img, .page17-table table tr td.table-img img {
+  width: 100%;
+}
+
+table.page12-table-desc, table.page17-table-desc {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: solid 1px #694139;
+  border-left: solid 1px #694139;
+  box-sizing: border-box;
+}
+
+table.page12-table-desc tr td, table.page17-table-desc tr td {
+  border-bottom: solid 1px #694139;
+  border-right: solid 1px #694139;
+  box-sizing: border-box;
+}
+
+table.page12-table-desc tr td p, table.page17-table-desc tr td p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+table.page12-table-desc tr td.state-img, table.page17-table-desc tr td.state-img {
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  box-sizing: border-box;
+}
+
+table.page12-table-desc tr td.state-img img, table.page17-table-desc tr td.state-img img {
+  height: 1.2rem;
+}
+.page33-t h3, .page5-ct h3, .page22-ct h3 {
+  font-size: 1.4rem;
+  color: #566b68;
+  font-weight: bold;
+}
+table.page-month-table {
+  border-collapse: collapse;
+  border-top: solid 1px #81b43d;
+  border-right: solid 1px#81b43d;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+table.page-month-table thead tr th, table.page-month-table tbody tr td {
+  border-bottom: solid 1px #81b43d;
+  border-left: solid 1px #81b43d;
+  border-right: solid 1px #81b43d;
+  empty-cells: show;
+  line-height: 1rem;
+  padding-left: 0.2rem;
+}
 .page{
   width: 100%;
   height: 100%;
