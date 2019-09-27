@@ -1,8 +1,8 @@
 <template>
-  <div class="page page1">
+  <div class="page page1 swiper-lazy" :data-background="bg">
     <div class="page1_top">
       <div class="page1_top_img">
-        <img v-lazy="img1">
+        <img class="swiper-lazy" :data-src="img1">
       </div>
     </div>
     <div class="page1_title">宝贝成长档案</div>
@@ -18,22 +18,22 @@
 
 <script>
 import img1 from '@/assets/index_files/5d887c7e7de54.jpg'
+import bg from '@/assets/img/page1-bg.png'
 export default {
   name: 'Page1',
   data () {
     return {
-      img1: img1
+      img1: img1,
+      bg: bg
     }
   }
 }
 </script>
 
 <style scoped>
-  /*第一页*/
   .page1 {
     width: 100%;
     height: 100%;
-    background: #f5e6cf url(../assets/img/page1-bg.png) no-repeat;
     background-size: 100% 100%;
   }
   .page1_top {
@@ -69,7 +69,6 @@ export default {
     text-shadow: #fff 2px 0 0, #fff 0 2px 0, #fff -2px 0 0, #fff 0 -2px 0;
     -webkit-text-shadow: #fff 2px 0 0, #fff 0 2px 0, #fff -2px 0 0, #fff 0 -2px 0;
     -moz-text-shadow: #fff 2px 0 0, #fff 0 2px 0, #fff -2px 0 0, #fff 0 -2px 0;
-    *filter: Glow(color=#fff, strength=2);
   }
   .page1_main {
     margin-top: 1rem;

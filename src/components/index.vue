@@ -55,8 +55,10 @@ export default {
     return {
       swiperOption: {
         direction: 'vertical',
-        lazyLoading: true,
-        lazyLoadingInPrevNextAmount: 2
+        lazy: {
+          loadPrevNext: true,
+          loadPrevNextAmount: 1
+        }
       }
     }
   },
