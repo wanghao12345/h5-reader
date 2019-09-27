@@ -23,7 +23,7 @@
 <script>
 import bg from '@/assets/img/page13-bg.png'
 export default {
-  name: 'Page13',
+  name: 'Page14',
   data () {
     return {
       bg: bg

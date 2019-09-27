@@ -66,7 +66,7 @@
       </swiper-slide>
       <swiper-slide>
         <div class="tab-page tab-page1">
-          <Page1 />
+          <Page15 />
         </div>
       </swiper-slide>
       <swiper-slide>
@@ -100,6 +100,7 @@ import Page11 from './Page11'
 import Page12 from './Page12'
 import Page13 from './Page13'
 import Page14 from './Page14'
+import Page15 from './Page15'
 export default {
   name: 'Home',
   components: {
@@ -115,7 +116,8 @@ export default {
     Page11,
     Page12,
     Page13,
-    Page14
+    Page14,
+    Page15
   },
   data () {
     return {
