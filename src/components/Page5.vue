@@ -35,7 +35,7 @@ import bg from '@/assets/img/page35.jpg'
 import titleBg from '@/assets/img/page33-t.png'
 
 export default {
-  name: 'Page4',
+  name: 'Page5',
   data () {
     return {
       bg: bg,

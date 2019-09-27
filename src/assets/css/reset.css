@@ -70,3 +70,161 @@ html,body{
   color: #566b68;
   font-weight: bold;
 }
+.page8_desc1 h4, .page8_desc2 h4, .page13_desc h4, .page13_desc2 h4, .page18_desc h4, .page18_desc2 h4 {
+  background: url(../img/page6-img-bg.png) no-repeat left bottom;
+  background-size: 50% 40%;
+  width: 90%;
+  padding: 1rem 0 1.5rem 1rem;
+  margin-left: 3%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.page8_title h2, .page9_title h2, .page10_title h2, .page11_title h2, .page13_title h2, .page14_title h2, .page15_title h2, .page16_title h2, .page18_title h2 {
+  color: #566b68;
+  background: url(../img/page3-title.png) no-repeat left top;
+  background-size: 20% 100%;
+  padding-top: 1rem;
+  padding-left: 4.5rem;
+  padding-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.page8_desc1 p, .page13_desc p, .page18_desc p, .page23_desc p, .page28_desc p {
+  color: #611514;
+  font-size: 0.8rem;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.2rem;
+  text-indent: 2em;
+}
+
+.page8_desc1, .page13_desc, .page18_desc {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.page8_desc1 p, .page13_desc p, .page18_desc p, .page23_desc p, .page28_desc p {
+  color: #611514;
+  font-size: 0.8rem;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page8_desc2, .page13_desc2, .page18_desc2 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.page8_desc2 p, .page13_desc2 p, .page18_desc2 p, .page23_desc2 p, .page28_desc2 p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 0.8rem;
+  color: #611514;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.2rem;
+  text-indent: 2em;
+}
+
+.page8_title h3, .page9_title h3, .page10_title h3, .page11_title h3, .page13_title h3, .page14_title h3, .page15_title h3, .page16_title h3, .page18_title h3 {
+  margin-bottom: .5rem;
+  padding-left: 0.5rem
+}
+
+.page8_title h3, .page9_title h3, .page10_title h3, .page11_title h3, .page13_title h3, .page14_title h3, .page15_title h3, .page16_title h3, .page18_title h3 {
+  margin-bottom: 1rem;
+  margin-top: 0.3rem;
+  padding-left: 0.5rem;
+  font-weight: bold;
+}
+
+.page9_desc h4, .page9_desc2 h4, .page9_desc3 h4, .page24_desc h4, .page24_desc2 h4, .page24_desc3 h4, .page29_desc h4, .page29_desc2 h4, .page29_desc3 h4 {
+  background: url(../img/page6-img-bg.png) no-repeat left bottom;
+  background-size: 50% 40%;
+  width: 90%;
+  padding: 1rem 0 1.5rem 1rem;
+  margin-left: 1%;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.page9_desc, .page14_desc, .page24_desc, .page29_desc {
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page9_desc p, .page14_desc p, .page24_desc p, .page29_desc p {
+  color: #611514;
+  text-indent: 2em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.page9_desc2, .page14_desc1, .page24_desc2, .page29_desc2 {
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page9_desc2 p, .page14_desc1 p, .page24_desc2 p, .page29_desc2 p {
+  color: #611514;
+  text-indent: 2em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.page9_desc3, .page14_desc2, .page24_desc3, .page29_desc3 {
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page9_desc3 p, .page14_desc2 p, .page24_desc3 p, .page29_desc3 p {
+  color: #611514;
+  text-indent: 2em;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+
+
+.page{
+  width: 100%;
+  height: 100%;
+}
