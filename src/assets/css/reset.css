@@ -26,3 +26,318 @@ a {color: #25a4bb;text-decoration: none;}
 html,body{
   overflow: hidden;
 }
+
+.page4_title h2, .page3_title h2, .page12_title h2 {
+  color: #566b68;
+  background-size: 20% 100%;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  padding-bottom: 0.5rem;
+  margin: 0 0 0 5%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.page3_top {
+  width: 100%;
+  margin-left: 2rem;
+}
+.page3_top img, .page3_bottom img {
+  width: 100%;
+}
+
+.page5, .page35, .page33 {
+  width: 100%;
+  height: 100%;
+  background-position: center bottom;
+  background-size: 100% 100%;
+}
+.page33-t, .page5-ct {
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-top: 1rem;
+  padding-left: 20%;
+  width: 90%;
+  margin-left: 10%;
+  height: 4rem;
+  line-height: 3.2rem;
+  box-sizing: border-box;
+  border-bottom: solid 1px #a6d472;
+  background-size: 50% 100%;
+}
+.page33-t h3, .page5-ct h3{
+  font-size: 1.4rem;
+  color: #566b68;
+  font-weight: bold;
+}
+.page8_desc1 h4, .page8_desc2 h4, .page13_desc h4, .page13_desc2 h4, .page18_desc h4, .page18_desc2 h4 {
+  background: url(../img/page6-img-bg.png) no-repeat left bottom;
+  background-size: 50% 40%;
+  width: 90%;
+  padding: 1rem 0 1.5rem 1rem;
+  margin-left: 3%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.page8_title h2, .page9_title h2, .page10_title h2, .page11_title h2, .page13_title h2, .page14_title h2, .page15_title h2, .page16_title h2, .page18_title h2 {
+  color: #566b68;
+  background: url(../img/page3-title.png) no-repeat left top;
+  background-size: 20% 100%;
+  padding-top: 1rem;
+  padding-left: 4.5rem;
+  padding-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.page8_desc1 p, .page13_desc p, .page18_desc p, .page23_desc p, .page28_desc p {
+  color: #611514;
+  font-size: 0.8rem;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.2rem;
+  text-indent: 2em;
+}
+
+.page8_desc1, .page13_desc, .page18_desc {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.page8_desc1 p, .page13_desc p, .page18_desc p, .page23_desc p, .page28_desc p {
+  color: #611514;
+  font-size: 0.8rem;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page8_desc2, .page13_desc2, .page18_desc2 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.page8_desc2 p, .page13_desc2 p, .page18_desc2 p, .page23_desc2 p, .page28_desc2 p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 0.8rem;
+  color: #611514;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.2rem;
+  text-indent: 2em;
+}
+
+.page8_title h3, .page9_title h3, .page10_title h3, .page11_title h3, .page13_title h3, .page14_title h3, .page15_title h3, .page16_title h3, .page18_title h3 {
+  margin-bottom: .5rem;
+  padding-left: 0.5rem
+}
+
+.page8_title h3, .page9_title h3, .page10_title h3, .page11_title h3, .page13_title h3, .page14_title h3, .page15_title h3, .page16_title h3, .page18_title h3 {
+  margin-bottom: 1rem;
+  margin-top: 0.3rem;
+  padding-left: 0.5rem;
+  font-weight: bold;
+}
+
+.page9_desc h4, .page9_desc2 h4, .page9_desc3 h4, .page24_desc h4, .page24_desc2 h4, .page24_desc3 h4, .page29_desc h4, .page29_desc2 h4, .page29_desc3 h4 {
+  background: url(../img/page6-img-bg.png) no-repeat left bottom;
+  background-size: 50% 40%;
+  width: 90%;
+  padding: 1rem 0 1.5rem 1rem;
+  margin-left: 1%;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.page9_desc, .page14_desc, .page24_desc, .page29_desc {
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page9_desc p, .page14_desc p, .page24_desc p, .page29_desc p {
+  color: #611514;
+  text-indent: 2em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.page9_desc2, .page14_desc1, .page24_desc2, .page29_desc2 {
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page9_desc2 p, .page14_desc1 p, .page24_desc2 p, .page29_desc2 p {
+  color: #611514;
+  text-indent: 2em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.page9_desc3, .page14_desc2, .page24_desc3, .page29_desc3 {
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page9_desc3 p, .page14_desc2 p, .page24_desc3 p, .page29_desc3 p {
+  color: #611514;
+  text-indent: 2em;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.page10_title, .page11_title, .page13_title {
+  padding: 1.5rem;
+  font-size: 1rem;
+  padding-bottom: 0rem;
+  padding-top: 1rem
+}
+.page6 h4, .page10 h4, .page11 h4 {
+  background: url(../img/page6-img-bg.png) no-repeat left bottom;
+  background-size: 50% 40%;
+  width: 80%;
+  padding: 1rem 0 1.5rem 1.2rem;
+  margin-left: 6%;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.page6_desc, .page10_desc, .page11_desc {
+  border: dashed 1px #FFF;
+  padding: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+}
+.page12_title h3, .page17_title h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.page12-table, .page17-table {
+  width: 80%;
+  margin: 2rem auto;
+  border: 1px solid #81b43d
+}
+
+.page12-table table.page12-table-cc, .page17-table table.page17-table-cc {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page12-table table thead tr th, .page17-table table thead tr th {
+  font-size: 1.3rem;
+  line-height: 1.6em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.page12-table table tbody tr td.table-img img, .page17-table table tr td.table-img img {
+  width: 100%;
+}
+
+table.page12-table-desc, table.page17-table-desc {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: solid 1px #694139;
+  border-left: solid 1px #694139;
+  box-sizing: border-box;
+}
+
+table.page12-table-desc tr td, table.page17-table-desc tr td {
+  border-bottom: solid 1px #694139;
+  border-right: solid 1px #694139;
+  box-sizing: border-box;
+}
+
+table.page12-table-desc tr td p, table.page17-table-desc tr td p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+table.page12-table-desc tr td.state-img, table.page17-table-desc tr td.state-img {
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  box-sizing: border-box;
+}
+
+table.page12-table-desc tr td.state-img img, table.page17-table-desc tr td.state-img img {
+  height: 1.2rem;
+}
+.page33-t h3, .page5-ct h3, .page22-ct h3 {
+  font-size: 1rem;
+  color: #566b68;
+  font-weight: bold;
+}
+table.page-month-table {
+  border-collapse: collapse;
+  border-top: solid 1px #81b43d;
+  border-right: solid 1px#81b43d;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+table.page-month-table thead tr th, table.page-month-table tbody tr td {
+  border-bottom: solid 1px #81b43d;
+  border-left: solid 1px #81b43d;
+  border-right: solid 1px #81b43d;
+  empty-cells: show;
+  line-height: 1rem;
+  padding-left: 0.2rem;
+}
+.page{
+  width: 100%;
+  height: 100%;
+}
