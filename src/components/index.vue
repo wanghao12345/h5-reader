@@ -11,7 +11,17 @@
       </swiper-slide>
       <swiper-slide>
         <div class="tab-page tab-page1">
-          <Page1 />
+          <Page2 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page3 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page4 />
         </div>
       </swiper-slide>
       <swiper-slide>
@@ -19,22 +29,6 @@
           <Page1 />
         </div>
       </swiper-slide>
-      <swiper-slide>
-        <div class="tab-page tab-page1">
-          <Page1 />
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="tab-page tab-page1">
-          <Page1 />
-        </div>
-      </swiper-slide>
-      <swiper-slide><div class="tab-page tab-page2">I'm Slide 2</div></swiper-slide>
-      <swiper-slide><div class="tab-page tab-page3">I'm Slide 3</div></swiper-slide>
-      <swiper-slide><div class="tab-page tab-page4">I'm Slide 4</div></swiper-slide>
-      <swiper-slide><div class="tab-page tab-page5">I'm Slide 5</div></swiper-slide>
-      <swiper-slide><div class="tab-page tab-page6">I'm Slide 6</div></swiper-slide>
-      <swiper-slide><div class="tab-page tab-page7">I'm Slide 7</div></swiper-slide>
     </swiper>
     <div class="goNext">
       <GoNext />
@@ -45,11 +39,17 @@
 <script>
 import GoNext from './GoNext'
 import Page1 from './Page1'
+import Page2 from './Page2'
+import Page3 from './Page3'
+import Page4 from './Page4'
 export default {
   name: 'Home',
   components: {
     GoNext,
-    Page1
+    Page1,
+    Page2,
+    Page3,
+    Page4
   },
   data () {
     return {

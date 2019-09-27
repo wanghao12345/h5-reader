@@ -26,3 +26,23 @@ a {color: #25a4bb;text-decoration: none;}
 html,body{
   overflow: hidden;
 }
+
+.page4_title h2, .page3_title h2, .page12_title h2 {
+  color: #566b68;
+  background-size: 20% 100%;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  padding-bottom: 0.5rem;
+  margin: 0 0 0 5%;
+  font-size: 1rem
+}
+
+.page3_top {
+  width: 100%;
+  margin-left: 2rem;
+}
+.page3_top img, .page3_bottom img {
+  width: 100%;
+}
+

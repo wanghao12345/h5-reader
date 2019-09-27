@@ -34,6 +34,7 @@ export default {
   .page1 {
     width: 100%;
     height: 100%;
+    background: #f5e6cf;
     background-size: 100% 100%;
   }
   .page1_top {
