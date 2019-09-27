@@ -221,9 +221,34 @@ html,body{
   font-size: 0.8rem;
   line-height: 1.2rem;
 }
-
-
-
+.page10_title, .page11_title, .page13_title {
+  padding: 1.5rem;
+  font-size: 1rem;
+  padding-bottom: 0rem;
+  padding-top: 1rem
+}
+.page6 h4, .page10 h4, .page11 h4 {
+  background: url(../img/page6-img-bg.png) no-repeat left bottom;
+  background-size: 50% 40%;
+  width: 80%;
+  padding: 1rem 0 1.5rem 1.2rem;
+  margin-left: 6%;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.page6_desc, .page10_desc, .page11_desc {
+  border: dashed 1px #FFF;
+  padding: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+}
 .page{
   width: 100%;
   height: 100%;
