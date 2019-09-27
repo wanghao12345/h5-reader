@@ -35,7 +35,8 @@ html,body{
   padding-left: 5rem;
   padding-bottom: 0.5rem;
   margin: 0 0 0 5%;
-  font-size: 1rem
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .page3_top {
@@ -79,6 +80,7 @@ html,body{
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: bold;
+  font-size: 0.9rem;
 }
 .page8_title h2, .page9_title h2, .page10_title h2, .page11_title h2, .page13_title h2, .page14_title h2, .page15_title h2, .page16_title h2, .page18_title h2 {
   color: #566b68;
@@ -156,6 +158,7 @@ html,body{
   margin-left: 1%;
   margin-bottom: 1rem;
   font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .page9_desc, .page14_desc, .page24_desc, .page29_desc {
@@ -235,6 +238,7 @@ html,body{
   margin-left: 6%;
   margin-bottom: 0.5rem;
   font-weight: bold;
+  font-size: 0.9rem;
 }
 .page6_desc, .page10_desc, .page11_desc {
   border: dashed 1px #FFF;
@@ -313,7 +317,7 @@ table.page12-table-desc tr td.state-img img, table.page17-table-desc tr td.state
   height: 1.2rem;
 }
 .page33-t h3, .page5-ct h3, .page22-ct h3 {
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: #566b68;
   font-weight: bold;
 }
