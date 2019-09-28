@@ -148,6 +148,9 @@
     <div class="goNext">
       <GoNext />
     </div>
+    <div class="loading-box" v-if="loading">
+      <img :src="require('@/assets/img/loading.svg')" alt="">
+    </div>
   </div>
 </template>
 
@@ -216,6 +219,7 @@ export default {
   },
   data () {
     return {
+      loading: true,
       swiperOption: {
         direction: 'vertical',
         lazy: {
@@ -230,7 +234,11 @@ export default {
     //   return this.$refs.mySwiper.swiper
     // }
   },
-  mounted () {}
+  mounted () {
+    setTimeout(() => {
+      this.loading = false
+    }, 3000)
+  }
 }
 </script>
 
@@ -239,6 +247,63 @@ export default {
     width: 100%;
     height: 100%;
     position: relative;
+  }
+  .loading-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 999999;
+  }
+  .loading-box img{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -2rem;
+    margin-top: -2rem;
+    animation: loading 2s linear 0s infinite;
+    -webkit-animation: loading 2s linear 0s infinite;
+    -o-animation: loading 2s linear 0s infinite;
+    -moz-animation: loading 2s linear 0s infinite;
+  }
+  @keyframes loading {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes loading {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @-o-keyframes loading {
+    from {
+      -o-transform: rotate(0deg);
+    }
+    to {
+      -o-transform: rotate(360deg);
+    }
+  }
+
+  @-moz-keyframes loading {
+    from {
+      -moz-transform: rotate(0deg);
+    }
+    to {
+      -moz-transform: rotate(360deg);
+    }
   }
   /deep/.swiper-container{
     width: 100%;

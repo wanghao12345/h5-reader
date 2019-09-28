@@ -337,6 +337,10 @@ table.page-month-table thead tr th, table.page-month-table tbody tr td {
   line-height: 1rem;
   padding-left: 0.2rem;
 }
+.page10 img{
+  width: 50%;
+  height: 12rem;
+}
 .page{
   width: 100%;
   height: 100%;

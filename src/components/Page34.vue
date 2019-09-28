@@ -42,7 +42,7 @@
             <img class="swiper-lazy" style="line-height:3rem;" :data-src="img4"/>
           </dt>
           <dd>
-            <div style="height: 14rem; width: 16.5rem; -webkit-tap-highlight-color: transparent; user-select: none; position: relative; background-color: transparent;" id="chartTest" _echarts_instance_="ec_1569240356647">
+            <div style="width: 232px; height: 200px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative; background-color: transparent;" id="chartTest" _echarts_instance_="ec_1569240356647">
               <div style="position: relative; overflow: hidden; width: 232px; height: 200px;">
                 <canvas width="232" height="200" data-zr-dom-id="zr_0" style="position: absolute; left: 0px; top: 0px; width: 232px; height: 200px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas>
               </div>
