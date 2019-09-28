@@ -43,8 +43,8 @@
           </dt>
           <dd>
             <div style="height: 14rem; width: 16.5rem; -webkit-tap-highlight-color: transparent; user-select: none; position: relative; background-color: transparent;" id="chartTest" _echarts_instance_="ec_1569240356647">
-              <div style="position: relative; overflow: hidden; width: 861px; height: 730px;">
-                <canvas width="861" height="730" data-zr-dom-id="zr_0" style="position: absolute; left: 0px; top: 0px; width: 861px; height: 730px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas>
+              <div style="position: relative; overflow: hidden; width: 232px; height: 200px;">
+                <canvas width="232" height="200" data-zr-dom-id="zr_0" style="position: absolute; left: 0px; top: 0px; width: 232px; height: 200px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas>
               </div>
               <div>
               </div>
@@ -74,6 +74,69 @@ export default {
       title_bg: titleBg,
       bg: bg
     }
+  },
+  mounted () {
+    const myChart = this.$echarts.init(document.getElementById('chartTest'))
+    const option = {
+      tooltip: {
+        trigger: 'axis'
+      },
+      radar: {
+        indicator: [
+          {name: '健康', max: 5},
+          {name: '社会', max: 5},
+          {name: '艺术', max: 5},
+          {name: '科学', max: 5},
+          {name: '语言', max: 5}
+        ],
+        center: ['50%', '50%'],
+        radius: '68%',
+        startAngle: 90,
+        splitNumber: 5,
+        name: {
+          formatter: '{value}',
+          textStyle: {
+            fontSize: 5,
+            color: '#59534C'
+          }
+        },
+        splitArea: {
+          areaStyle: {
+            color: ['rgba(114, 172, 209, 0.5)',
+              'rgba(114, 172, 209, 0.6)', 'rgba(114, 172, 209, 0.8)',
+              'rgba(114, 172, 209, 0.9)', 'rgba(114, 172, 209, 1)']
+          }
+        },
+        axisLine: {
+          lineStyle: {
+            color: 'rgba(255, 255, 255, 0.8)'
+          }
+        },
+        splitLine: {
+          lineStyle: {
+            color: 'rgba(255, 255, 255, 0.8)'
+          }
+        }
+      },
+      series: [{
+        type: 'radar',
+        tooltip: {
+          trigger: 'item'
+        },
+        itemStyle: {
+          normal: {
+            color: '#CC9B52'
+          }
+        },
+        data: [
+          {
+            value: [3.8333333333333, 4.0625, 3.8333333333333, 4.25, 4],
+            name: '综合评价'
+          }
+        ]
+      }]
+    }
+    myChart.setOption(option)
   }
 }
 </script>

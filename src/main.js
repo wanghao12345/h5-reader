@@ -5,6 +5,9 @@ import App from './App'
 import router from './router'
 // 懒加载
 import VueLazyload from 'vue-lazyload'
+
+// echarts
+import echarts from 'echarts'
 // swiper
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
@@ -19,6 +22,8 @@ import './assets/css/reset.css'
 Vue.use(VueLazyload)
 // swiper
 Vue.use(VueAwesomeSwiper)
+// echarts
+Vue.prototype.$echarts = echarts
 
 Vue.config.productionTip = false
 
