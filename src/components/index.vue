@@ -71,7 +71,32 @@
       </swiper-slide>
       <swiper-slide>
         <div class="tab-page tab-page1">
-          <Page1 />
+          <Page16 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page17 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page18 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page19 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page20 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page21 />
         </div>
       </swiper-slide>
       <swiper-slide>
@@ -101,6 +126,12 @@ import Page12 from './Page12'
 import Page13 from './Page13'
 import Page14 from './Page14'
 import Page15 from './Page15'
+import Page16 from './Page16'
+import Page17 from './Page17'
+import Page18 from './Page18'
+import Page19 from './Page19'
+import Page20 from './Page20'
+import Page21 from './Page21'
 export default {
   name: 'Home',
   components: {
@@ -117,7 +148,13 @@ export default {
     Page12,
     Page13,
     Page14,
-    Page15
+    Page15,
+    Page16,
+    Page17,
+    Page18,
+    Page19,
+    Page20,
+    Page21
   },
   data () {
     return {
