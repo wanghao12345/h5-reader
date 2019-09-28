@@ -101,6 +101,46 @@
       </swiper-slide>
       <swiper-slide>
         <div class="tab-page tab-page1">
+          <Page22 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page23 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page24 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page25 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page26 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page27 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page1 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
+          <Page1 />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="tab-page tab-page1">
           <Page1 />
         </div>
       </swiper-slide>
@@ -132,6 +172,12 @@ import Page18 from './Page18'
 import Page19 from './Page19'
 import Page20 from './Page20'
 import Page21 from './Page21'
+import Page22 from './Page22'
+import Page23 from './Page23'
+import Page24 from './Page24'
+import Page25 from './Page25'
+import Page26 from './Page26'
+import Page27 from './Page27'
 export default {
   name: 'Home',
   components: {
@@ -154,7 +200,13 @@ export default {
     Page18,
     Page19,
     Page20,
-    Page21
+    Page21,
+    Page22,
+    Page23,
+    Page24,
+    Page25,
+    Page26,
+    Page27
   },
   data () {
     return {
