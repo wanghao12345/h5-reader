@@ -31,7 +31,6 @@
         </dt>
         <dd>
           <p>热爱美好的事物：<font>热爱</font></p>
-          <p>热爱<font>能 </font></p>
           <p>绘画能力：<font>绘画能力强</font></p>
           <p>音乐舞蹈能力：<font>音乐舞蹈还不错</font></p>
           <p>手工能力：<font></font></p>

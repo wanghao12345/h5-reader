@@ -224,7 +224,7 @@ export default {
         direction: 'vertical',
         lazy: {
           loadPrevNext: true,
-          loadPrevNextAmount: 1
+          loadPrevNextAmount: 3
         }
       }
     }
@@ -237,7 +237,7 @@ export default {
   mounted () {
     setTimeout(() => {
       this.loading = false
-    }, 3000)
+    }, 2000)
   }
 }
 </script>
