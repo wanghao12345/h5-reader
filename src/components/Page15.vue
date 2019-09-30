@@ -37,7 +37,7 @@ export default {
     font-size: 0.875rem
   }
   .page10_img {
-    width: 50%;
+    width: 80%;
     margin-left: 10%;
     border: solid 1px #FFF;
     float: left;

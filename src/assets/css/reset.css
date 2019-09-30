@@ -113,8 +113,11 @@ html,body{
   color: #611514;
   font-size: 0.8rem;
   width: 84%;
+  height: 9rem;
   margin-left: auto;
   margin-right: auto;
+  border: dashed 1px #FFF;
+  padding: 1rem;
 }
 
 .page8_desc2, .page13_desc2, .page18_desc2 {
@@ -125,10 +128,6 @@ html,body{
 }
 
 .page8_desc2 p, .page13_desc2 p, .page18_desc2 p, .page23_desc2 p, .page28_desc2 p {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
   font-size: 0.8rem;
   color: #611514;
   width: 84%;
@@ -136,6 +135,9 @@ html,body{
   margin-right: auto;
   line-height: 1.2rem;
   text-indent: 2em;
+  border: dashed 1px #FFF;
+  padding: 1rem;
+  height: 9rem;
 }
 
 .page8_title h3, .page9_title h3, .page10_title h3, .page11_title h3, .page13_title h3, .page14_title h3, .page15_title h3, .page16_title h3, .page18_title h3 {
@@ -171,15 +173,14 @@ html,body{
 .page9_desc p, .page14_desc p, .page24_desc p, .page29_desc p {
   color: #611514;
   text-indent: 2em;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
   width: 84%;
   margin-left: auto;
   margin-right: auto;
   font-size: 0.8rem;
   line-height: 1.2rem;
+  border: dashed 1px #FFF;
+  padding: 1rem;
+  height: 9rem;
 }
 
 .page9_desc2, .page14_desc1, .page24_desc2, .page29_desc2 {
@@ -192,15 +193,14 @@ html,body{
 .page9_desc2 p, .page14_desc1 p, .page24_desc2 p, .page29_desc2 p {
   color: #611514;
   text-indent: 2em;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
   width: 84%;
   margin-left: auto;
   margin-right: auto;
   font-size: 0.8rem;
   line-height: 1.2rem;
+  border: dashed 1px #FFF;
+  padding: 1rem;
+  height: 9rem;
 }
 
 .page9_desc3, .page14_desc2, .page24_desc3, .page29_desc3 {

@@ -10,7 +10,7 @@
       <table cellpadding="0" cellspacing="0" class="page4_c_table">
         <tbody>
         <tr>
-          <td style="width:30%"></td>
+          <td style="width:14%"></td>
           <td rowspan="8" style="border:solid 3px #FFF;">
             <img class="swiper-lazy" :data-src="img1"/>
           </td>
@@ -101,7 +101,7 @@ export default {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     background:left top;
   }

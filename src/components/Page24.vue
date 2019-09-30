@@ -15,7 +15,7 @@
     </div>
     <div class="page8_desc2">
       <h4>家园建议</h4>
-      <p> 在为期四周主题活动中，我们将跟孩子们一起经历,艺术（美术）小被子、小脚丫、小小粉刷匠(一、二）；（音乐）漱口、洗手、碰一碰、摇啊摇；健康活动：耳朵听到了什么、飞镖大玩家、好玩的皮球、快乐木头人；语言活动：我要拉巴巴（一、二）、不爱用手的小河马、我该怎么办；科学活动：热水和冷水、饼</p>
+      <p> 在为期四周主题活动中，我们将跟孩子们一起经历,艺术（美术）小被子、小脚丫、小小粉刷匠(一、二）；</p>
     </div>
   </div>
 </template>
@@ -42,5 +42,16 @@ export default {
     font-size: 1rem;
     padding-bottom: 0rem;
     padding-top: 1rem
+  }
+
+  p{
+    border: dashed 1px #FFF;
+    padding: 1rem;
+    height: 4rem !important;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
   }
 </style>

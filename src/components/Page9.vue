@@ -41,4 +41,10 @@ export default {
     padding-bottom: 0rem;
     padding-top: 1rem
   }
+  p{
+    border: dashed 1px #FFF;
+    padding: 1rem;
+    height: 6rem !important;
+    overflow: hidden;
+  }
 </style>

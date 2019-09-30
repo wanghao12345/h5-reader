@@ -44,13 +44,13 @@ export default {
     font-size: 0.875rem
   }
   .page10_img {
-    width: 70%;
-    border: solid 1px #FFF;
+    width: 80%;
     margin: 2rem auto;
     display: flex;
+    justify-content: space-between;
   }
   .page10 img {
-    width: 50%;
+    width: 48%;
   }
   .page10_desc p {
     font-size: 0.8rem;

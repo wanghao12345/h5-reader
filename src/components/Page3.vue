@@ -85,6 +85,7 @@ export default {
 
   .page3_main {
     width: 81%;
+    padding-top: 2rem;
     margin: 0 auto;
   }
 
