@@ -111,7 +111,7 @@ dl.page34-list {
   width: 95%;
   height: 4rem;
   display: block;
-  margin: 0.5rem auto;
+  margin: 3rem auto;
 }
 dl.page34-list dd p{
   text-indent: 0em;

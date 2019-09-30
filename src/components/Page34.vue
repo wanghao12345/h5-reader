@@ -192,8 +192,8 @@ dl.page34-list {
   width: 95%;
   height: 4rem;
   display: block;
-  margin: 0rem auto;
-  margin-bottom: 3rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
 }
 dl.page34-list dd p{
   text-indent: 0em;
