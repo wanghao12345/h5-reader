@@ -53,10 +53,6 @@ export default {
     width: 50%;
   }
   .page10_desc p {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
     font-size: 0.8rem;
     line-height: 1.2rem;
     text-indent: 2em;
